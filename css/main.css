@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: #3d13f0;
+  text-shadow: 2px 2px 5px rgb(160, 160, 160);
+  font-weight: 600;
+  font-size: 2.6em;
+  text-align: center;
+  padding: 15px;
+}
+
+h2 {
+  color: #3d13f0;
+  font-weight: 500;
+  font-size: 2em;
+  text-align: center;
+  padding: 1%;
+}
+
+h3{
+  color: #3d13f0;
+  font-weight: 500;
+  font-size: 1em;
+  text-align:justify;
+  padding: 1%;
+
+}
+
+
+a {
+  color: #3d13f0;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn {
+  width: 200px;
+  background-color: rgb(19, 240, 220);
+  color: #3d13f0;
+}
+.btn:hover {
+  background-color: #3d13f0;
+  color: rgb(19, 240, 220);
+}
+
+.historia {
+  background-color: rgb(108, 167, 240);
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.historia img {
+  width: 80%;
+  padding: 1%;
+}
+
+.historia h2 {
+  color: #3d13f0;
+}
+
+.historia p {
+  color: white;
+  width: 80%;
+  padding: 1px;
+}
+
+.equipo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+}
+
+.integrantes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.integrantes img {
+  width: 30%;
+}
+.integrantes p {
+  width: 40%;
+  font-size: 16px;
+  color: rgb(61, 19, 240);
+  text-align: center;
+  line-height: 22px;
+}
+
+.preguntas ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+}
+
+.preguntas ul li {
+  width: 30%;
+  border: solid rgb(108, 167, 240) 2px;
+  padding: 10px;
+  color: rgb(108, 167, 240);
+  border-radius: 10px;
+  margin: 5px;
+  list-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.preguntas ul li h2 {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.preguntas ul li p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media (width <= 700px) {
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  section .figure-comprar {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+footer .columna {
+  display: none;
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(108, 167, 240);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 3%;
+  font-family: "Poppins", sans-serif;
+}
+nav img {
+  width: 30%;
+  padding: 10px;
+}
+nav img ul {
+  display: flex;
+}
+nav img ul li {
+  color: #3d13f0;
+  font-size: 1.1em;
+  font-weight: 600;
+  list-style: none;
+  margin-right: 20px;
+}
+nav img ul li a {
+  text-decoration: none;
+  color: #3d13f0;
+}
+
+.navbar-nav .nav-link {
+  color: #3d13f0;
+}
+.navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url(../img/icono_menu.svg);
+}
+
+.dropdown-item {
+  color: rgb(108, 167, 240);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header p {
+  color: #3d13f0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  padding: 30px;
+}
+
+.como-comprar h3 {
+  text-align: center;
+  color: #3d13f0;
+}
+.como-comprar .mis-cards {
+  background-color: white;
+  border: solid rgb(108, 167, 240) 3px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  height: 350px;
+  padding: 5%;
+}
+.como-comprar .mis-cards img {
+  width: 30%;
+  padding-bottom: 5%;
+
+}
+.como-comprar .mis-cards figcaption {
+  color: rgb(108, 167, 240);
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 5%;
+}
+.como-comprar .mis-cards p {
+  color: rgb(108, 167, 240);
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  padding-bottom: 5%;
+}
+
+.figure-comprar {
+  width: 100%;
+  height: 80%;
+  margin: 2% 1%;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.que-comprar h3 {
+  padding: 10px;
+  margin: 10px;
+}
+.que-comprar figure {
+  height: auto;
+  background-color: rgb(108, 167, 240);
+  box-sizing: border-box;
+  padding: 2% 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.que-comprar img {
+  width: 100%;
+  border-radius: 10px;
+}
+.que-comprar figcaption {
+  margin: 2% 1%;
+  color: rgb(255, 255, 255);
+  font-size: 28;
+  font-weight: 700;
+}
+.que-comprar p {
+  margin: 2% 1%;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+}
+.que-comprar a {
+  width: 80%;
+  margin: auto;
+}
+
+.que-comprar .btn {
+  width: 98%;
+}
+
+.que-comprar-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.figura {
+  box-sizing: border-box;
+}
+
+.recomendados {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50%;
+}
+.recomendados h3 {
+  width: 100%;
+  padding: 5px;
+}
+.recomendados img {
+  width: 60%;
+  padding: 3%;
+}
+.marcas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px; 
+  align-items: center;
+  justify-items: center;
+}
+
+.marcas img {
+  width: 100%;
+  max-width: 100px; /* opcional, controla el tamaño */
+}
+
+@media (width <= 992px) {
+  .que-comprar-cards {
+    flex-wrap: wrap;
+  }
+}
+@media (width <= 768px) {
+  .como-comprar .mis-cards {
+    height: auto;
+  }
+  .preguntas ul li {
+    width: 45%;
+  }
+}
+@media (width <= 480px) {
+  .preguntas ul li {
+    width: 90%;
+  }
+}
+footer {
+  width: 100%;
+  padding: 1% 2%;
+  background-color: rgb(108, 167, 240);
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+footer .columna ul li {
+  list-style: none;
+}
+footer .columna ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+}
+footer .icono {
+  width: 5%;
+  padding: 2px;
+}
+footer .logotipo {
+  width: 15%;
+  padding: 2%;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: rgb(108, 167, 240);
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #3d13f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+form label {
+  display: block;
+}
+form input {
+  margin-bottom: 14px;
+  margin-top: 6px;
+  width: 98%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+  color: #3d13f0;
+}
+form .btn {
+  width: 99%;
+  
+}
+
+/*# sourceMappingURL=main.css.map */

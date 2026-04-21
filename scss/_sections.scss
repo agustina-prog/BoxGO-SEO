@@ -1,0 +1,178 @@
+@import 'variables';
+
+
+.como-comprar {
+  // display: flex;
+  // flex-direction: column;
+  // align-self: center;
+  // justify-content: center;
+ 
+  
+
+  h3 {
+    text-align: center;
+    color: $color-primario;
+  }
+
+  .mis-cards{
+    // width: 50%;
+    background-color: white;
+    border: solid $color-secundario 3px;
+    border-radius: $border-radius;
+    padding: 2%;
+    margin: 1px 3px;
+    box-shadow: $shadow;
+    height: 350px;
+
+
+    img {
+      width: 30%;
+      padding-bottom: 20%;
+    }
+
+    figcaption {
+      color: $color-secundario;
+      font-weight: 600;
+      font-size: 20px;
+      padding-bottom: 1%;
+    }
+
+    p {
+      color: $color-secundario;
+      font-family: $fuente-texto;
+      line-height: 20px;
+    }
+  }
+}
+ .figure-comprar{
+  width: 100%;
+  height: 80%;
+  margin: 2% 1%;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+ }
+
+ .que-comprar{
+    // margin:3% 1;
+    // width: 100%;
+    // display: flex;
+    // justify-content: center;
+  
+
+     h3{
+      // position: absolute;
+      padding: 10px;
+      margin: 10px;
+      }
+
+     figure{
+        // width: 30%;
+        height: auto;
+        background-color: rgb(108, 167, 240);
+        box-sizing: border-box;
+        // margin: 2%;
+        padding: 2% 2%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        }
+
+        img{
+            width: 100%;
+            border-radius: 10px;
+            }
+        figcaption{
+            margin: 2% 1%;
+            color: rgb(255, 255, 255);    
+            font-size: 28;
+            font-weight: 700;
+            }
+
+        p{
+            margin: 2% 1%;
+            color: rgb(255, 255, 255);
+            font-family: "Roboto", sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 22px;
+            }
+
+        a{
+            width: 80%;
+            margin: auto;
+            }
+}
+
+    
+    .que-comprar .btn{
+            width: 98%;
+    }
+  .que-comprar-cards{
+    // margin: 3% 1%;
+    // padding: 1%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+.figura{
+  box-sizing: border-box;
+}
+.recomendados{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50%;
+ 
+   
+
+    h3{
+        width: 100%;
+        padding: 5px;
+     }
+
+        img{
+            width: 60%;
+            padding: 3%;
+                
+        }
+
+      
+}
+.marcas{
+    width: 100%;
+    margin: 1% 2%;
+    display: flex;
+
+}
+
+// responsive Lau
+@media (width<= 992px){
+  .que-comprar-cards{
+    flex-wrap: wrap;
+  }
+}
+
+@media (width<=768px){
+  .como-comprar .mis-cards{
+    height: auto;
+  }
+  
+  .preguntas ul{
+    li{
+      width:45%
+    }
+  }
+}
+@media (width<=480px){
+  .preguntas ul{
+    li{
+      width:90%
+    }
+  }
+}

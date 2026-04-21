@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+User-Agent: Googlebot-Image
+Disallow: /figure
+Disallow: /icons
+

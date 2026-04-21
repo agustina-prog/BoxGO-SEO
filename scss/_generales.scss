@@ -1,0 +1,184 @@
+@import 'variables';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $fuente-titulo;
+}
+
+
+
+h1 {
+  color: $color-primario;
+  text-shadow: 2px 2px 5px rgb(160, 160, 160);
+  font-weight: 600;
+  font-size: 2.6em;
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  color: $color-primario;
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+    padding: 1%;
+}
+
+a {
+  color: $color-primario;
+}
+
+p {
+  font-family: $fuente-texto;
+}
+
+//  Extend
+%boton-base {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  border-radius: $border-radius;
+  padding: 5px;
+  margin: 10px;
+  box-shadow: $shadow;
+  display: inline-block;
+  cursor: pointer;
+}
+//Extend
+.btn {
+  @extend %boton-base;
+  width: 200px;
+  background-color: $color-acento;
+  color: $color-primario;
+
+  &:hover {
+    background-color: $color-primario;
+    color: $color-acento;
+  }
+}
+// nesting
+.historia{
+  background-color: $color-secundario;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+
+    img{
+      width: 80%;
+      padding: 1%;
+      
+    }
+  }
+
+.historia h2{
+  color: $color-primario;
+}
+
+.historia p{
+  color: white;
+  width: 80%;
+  padding: 1px;
+
+}
+.equipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+
+.integrantes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    img{
+        width: 30%;
+    }
+    
+    
+        p{
+            width: 40%;
+            font-size: 16px;
+            color: rgb(61, 19, 240);
+            text-align: center;
+            line-height: 22px;
+        }
+}
+
+.preguntas ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+        .preguntas ul li{
+            width: 30%;
+            border: solid rgb(108, 167, 240) 2px;
+            padding: 10px;
+            color:  rgb(108, 167, 240);
+            border-radius: 10px;
+            margin: 5px;
+            list-style: none;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }   
+
+
+            .preguntas ul li h2{
+                font-weight: 500;
+                font-size: 26px;
+                line-height: 32px;
+            }
+
+                .preguntas ul li p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+            }
+
+@media (width<=700px){
+  h3{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+
+
+
+section{
+  .figure-comprar{
+    display: flex;
+    flex-wrap: nowrap;
+    
+
+  }
+}
+}
+
+
+
+    footer{
+      .columna{
+      display: none; 
+
+    }
+
+}
+
+
+
+
+
+
